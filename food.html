@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>hi !!!!</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link href="css/bootstrap.min.css" rel="stylesheet">
+        
+    </head>
+    <body>
+            <style>
+                .sidepanel  {
+  width: 0;
+  position: fixed;
+  z-index: 1;
+  height: 500px;
+  top: 0;
+  left: 0;
+  color: black;
+  background-color:white;
+  overflow-x: hidden;
+  transition: 0.5s;
+  padding-top: 100px;
+}
+
+.sidepanel a {
+  padding: 5px 5px 5px 5px;
+  text-decoration: none;
+  font-size: 25px;
+  color: black;
+  display: block;
+  transition: 0;
+  margin-top: 5px;
+}
+.openbtn {
+  cursor: pointer;
+  background:transparent;
+  border: 0px;
+  margin-left: 80px;
+}
+/*.openbtn:hover {
+  background:transparent;
+  background-color:cadetblue;
+  border: 0px;
+}*/
+                .BaseNav
+                {
+                    margin-bottom: 80px;
+                }
+                .container
+                {
+                    margin-bottom: 50px;
+                }
+                    .container1  div[class^="col" ] {
+                        padding-right: 1px;
+                        text-align: center;
+                        }
+                        section
+                        {
+                            padding-bottom: 40px;
+                        }
+                    #group3
+                        {
+                            border-bottom: 1px solid black;
+                            padding-bottom: 50px;                        
+                        }
+                        #group4
+                        {
+                            padding-top:70px ;
+                        }
+                        #raji
+                        {
+                            padding-bottom: 35px;
+                        }
+                        #raji1
+                        {
+                            padding-top: 35px;
+                        }
+                        #raji2
+                        {
+                            padding-bottom:100px;
+                            border-bottom: 1px solid black;
+                    
+                        }
+                        .container2  div[class^="col" ]
+                        {
+                            text-align: left;
+                        }
+                        #vishnu1
+                        {
+                            margin-left: 500px;
+                            margin-right: 500px;
+                        }
+
+                    </style>
+                    <div class="container">
+                            <section class="BaseNav" >
+                                    <nav class="navbar fixed-top    bg-light ">
+                                        <ul class="nav">
+                                        <li class="nav-item">
+                                            <div id="foodpanel" class="sidepanel">
+                                                    <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">close menu</a>
+                                                    <a href="#">food</a>
+                                                    <a href="#raji">about us</a>
+                                            </div>
+                                           <button class="openbtn" onclick="openNav()"> <img src="images/menu.jpg" height="50px"></button>
+                                           <script>
+                                                function openNav() {
+                                                  document.getElementById("foodpanel").style.width = "250px";
+                                                }
+                                                
+                                                function closeNav() {
+                                                  document.getElementById("foodpanel").style.width = "0";
+                                                }
+                                                </script>
+                                        </li>
+                                            <li class="nav-item">
+                                               <h4 id ="vishnu1">My Food</h4>
+                                            </li>
+                                            <li class="nav-item">	
+                                                <h4 id="anu1">Mail</h4>
+                                            </li>
+                                            </ul>
+                                            </nav>
+                            </section>
+        <div class="container1">
+            <section name="group1">
+            <div class="row">
+                <div class="col-sm-3">
+                    <div class="immm" ><img src="images/sandwich.jpg" class="img-fluid"  alt="Responsive image"></div>
+                    <h4>The Perfect Sandwich, A Real NYC Classic</h4>
+                    <p>Just some random text, lorem ipsum text praesent tincidunt ipsum lipsum.</p>
+                </div>
+                <div class="col-sm-3">
+                    <div class="imm"><img src="images/steak.jpg"class="img-fluid" alt="Responsive image"></div>
+                    <h4>Let Me Tell You About This Steak</h4>
+                    <p>Once again, some random text to lorem lorem lorem lorem ipsum text praesent tincidunt ipsum lipsum.</p>
+                </div>
+                <div class="col-sm-3">
+                    <div class="imm"><img src="images/cherries.jpg"class="img-fluid" alt="Responsive image"></div>
+                    <h4>Cherries, interrupted</h4>
+                    <p>Lorem ipsum text praesent tincidunt ipsum lipsum.</p>
+                    <p>What else?</p>
+                </div>
+                <div class="col-sm-3">
+                    <div class="imm"><img src="images/wine.jpg"class="img-fluid" alt="Responsive image"></div>
+                    <h4>Once Again, Robust Wine and Vegetable Pasta</h4>
+                    <p>Lorem ipsum text praesent tincidunt ipsum lipsum.</p>
+                </div>
+            </div></section>
+            <section name="group2">
+            <div class="row">
+                    <div class="col-sm-3">
+                        <div class="immm" ><img src="images/popsicle.jpg" class="img-fluid"  alt="Responsive image"></div>
+                        <h4>All I Need Is a Popsicle</h4>
+                        <p>Lorem ipsum text praesent tincidunt ipsum lipsum.</p>
+                    </div>
+                    <div class="col-sm-3">
+                        <div class="imm"><img src="images/salmon.jpg"class="img-fluid" alt="Responsive image"></div>
+                        <h4>Salmon For Your Skin</h4>
+                        <p>Once again, some random text to lorem lorem lorem lorem ipsum text praesent tincidunt ipsum lipsum.</p>
+                    </div>
+                    <div class="col-sm-3">
+                        <div class="imm"><img src="images/sandwich (1).jpg"class="img-fluid" alt="Responsive image"></div>
+                        <h4>The Perfect Sandwich, A Real Classic</h4>
+                        <p>Just some random text, lorem ipsum text praesent tincidunt ipsum lipsum.</p>
+                    </div>
+                    <div class="col-sm-3">
+                        <div class="imm"><img src="images/croissant.jpg"class="img-fluid" alt="Responsive image"></div>
+                        <h4>Le French</h4>
+                        <p>Lorem lorem lorem lorem ipsum text praesent tincidunt ipsum lipsum.</p>
+                    </div>
+                </div>
+            </section>
+            <section id="group3">
+                <div class="col">
+                    <ul class="pagination justify-content-center">
+                    <li class="page-item"><a class="page-link" href="#"><<</a></li>
+                    <li class="page-item active"><a class="page-link" href="#">1</a></li> 
+                    <li class="page-item"><a class="page-link" href="#">2</a></li>
+                    <li class="page-item"><a class="page-link" href="#">3</a></li>
+                    <li class="page-item"><a class="page-link" href="#">4</a></li> 
+                    <li class="page-item"><a class="page-link" href="#">>></a></li>
+                    </ul>
+                </div>
+            </section>
+            <section id="group4">
+                <div class="col">
+                    <h4 id="raji">About Me, The Food Man</h4>
+                    <img src="images/chef.jpg"class="img-fluid" alt="Responsive image">
+                    <h4 id="raji1">I am Who I Am!</h4>
+                    <p>With Passion For Real, Good Food</p>
+                    <p id="raji2">Just me, myself and I, exploring the universe of unknownment. I have a heart of love and an interest of lorem ipsum and mauris neque quam blog. I want to share my world with you. Praesent tincidunt sed tellus ut rutrum. Sed vitae justo condimentum, porta lectus vitae, ultricies congue gravida diam non fringilla. Praesent tincidunt sed tellus ut rutrum. Sed vitae justo condimentum, porta lectus vitae, ultricies congue gravida diam non fringilla.</p>
+                </div>
+            </section>
+            <div class="container2">
+                    <div class="row">
+                    <div class="col-sm-4">
+                        <div class="foot"><h4>FOOTER</h4>
+                        <p>Praesent tincidunt sed tellus ut rutrum. Sed vitae justo condimentum, porta lectus vitae, ultricies congue gravida diam non fringilla.</p>
+                        </div>
+                    </div>
+                <div class="col-sm-4">
+                    <div class="foot"><h4>BLOG POSTS</h4>
+                        <ul class="list-group ">
+                               <a href="#" class="list-group-item list-group-item-action list-group-item-light"><img src="images/workshop.jpg" style="width: 50px">Lorem
+                                <span>Sed mattis nunc</span></a>
+                               </ul>
+                                <ul class="list-group list-group-flush">
+                                <a href="#" class="list-group-item list-group-item-action list-group-item-light"><img src="images/gondol.jpg" style="width: 50px">Ipsum
+                                    <span>Praes tinci sed</span></a>
+                           </ul>
+                    </div>
+                </div>
+                <div class="col-sm-4">
+                    <div class="foot"><h4>POPULAR TAGS</h4>
+                        <span class="badge badge-dark">Travel</span>
+                        <span class="badge badge-secondary">New York</span>
+                        <span class="badge badge-secondary">Dinner</span>
+                        <span class="badge badge-secondary">Salmon</span>
+                        <span class="badge badge-secondary">France</span>
+                        <span class="badge badge-secondary">Drinks</span>
+                        <span class="badge badge-secondary">Ideas</span>
+                        <span class="badge badge-secondary">Flavors</span>
+                        <span class="badge badge-secondary">Cuisine</span>
+                        <span class="badge badge-secondary">Chicken</span>
+                        <span class="badge badge-secondary">Dressing</span>
+                        <span class="badge badge-secondary">Fried</span>
+                        <span class="badge badge-secondary">Fish</span>
+                        <span class="badge badge-secondary">Duck</span>
+            </div>
+                </div>
+                </div>
+                </div>
+                </div>
+            </div>
+                <script src="js/bootstrap.min.js"></script>
+        <script src="js/jquery-3.4.1.min.js"></script>
+        <script src="js/bootstrap.js"></script>
+        <script src="js/popper.min.js"></script>
+    </body>
+</html>
